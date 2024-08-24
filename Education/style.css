@@ -1,0 +1,63 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Style for the header */
+header {
+    background-color:blueviolet;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the header text */
+header h3 {
+    margin: 0;
+}
+
+/* Style for the image containers */
+.img, .main, .asside, .home, .like {
+    text-align: center;
+    margin: 20px auto; /* Center align the containers with margin */
+    max-width: 90%; /* Limit the width of containers */
+}
+
+/* Style for the images */
+.img img, .main img, .asside img, .home img, .like img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Additional styling for specific containers if needed */
+.main {
+    margin-top: 30px; /* Extra spacing for the main container */
+}
+
+.asside {
+    margin-top: 30px; /* Extra spacing for the aside container */
+}
+
+.home {
+    margin-top: 30px; /* Extra spacing for the home container */
+}
+
+/* Responsive design for different screen sizes */
+@media (min-width: 600px) {
+    .img, .main, .asside, .home, .like {
+        max-width: 80%; /* Increase max-width for larger screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .img, .main, .asside, .home, .like {
+        max-width: 70%; /* Further increase max-width for larger screens */
+    }
+}

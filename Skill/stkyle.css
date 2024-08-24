@@ -1,0 +1,46 @@
+/* Reset some default styling */
+body, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color:black; /* Light grey background */
+    color:white;/* Darker text color */
+    text-align: center; /* Center align text */
+}
+
+header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding around header text */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+header h3 {
+    font-size: 1.5em; /* Larger font size for header text */
+}
+
+.img, .main, .asside, .home, .like {
+    margin: 10px auto; /* Center align the divs with margin */
+    max-width: 90%; /* Limit the width of images */
+}
+
+.img img, .main img, .asside img, .home img, .like img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+@media (min-width: 600px) {
+    .img, .main, .asside, .home, .like {
+        max-width: 80%; /* Increase max-width for larger screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .img, .main, .asside, .home, .like {
+        max-width: 70%; /* Further increase max-width for larger screens */
+    }
+}
